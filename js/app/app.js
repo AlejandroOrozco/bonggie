@@ -1,1 +1,1 @@
-var bonggie = angular.module('bonggie', []);
+var bonggie = angular.module('bonggie', ['ngRoute'])
