@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-
-<!-- Mirrored from centaurus.adbee.technology/ by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 27 Jul 2014 00:44:54 GMT -->
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centaurus - Bootstrap Admin Template</title>
+    <title>Bonggie</title>
 
     <script type="text/javascript">
     //<![CDATA[
@@ -64,54 +61,6 @@
 		<script src="js/html5shiv.js"></script>
 		<script src="js/respond.min.js"></script>
 	<![endif]-->
-    <script type="text/javascript">
-    /* <![CDATA[ */
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-49262924-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-        var ga = document.createElement('script');
-        ga.type = 'text/javascript';
-        ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(ga, s);
-    })();
-
-    (function(b) {
-        (function(a) {
-            "__CF" in b && "DJS" in b.__CF ? b.__CF.DJS.push(a) : "addEventListener" in b ? b.addEventListener("load", a, !1) : b.attachEvent("onload", a)
-        })(function() {
-            "FB" in b && "Event" in FB && "subscribe" in FB.Event && (FB.Event.subscribe("edge.create", function(a) {
-                _gaq.push(["_trackSocial", "facebook", "like", a])
-            }), FB.Event.subscribe("edge.remove", function(a) {
-                _gaq.push(["_trackSocial", "facebook", "unlike", a])
-            }), FB.Event.subscribe("message.send", function(a) {
-                _gaq.push(["_trackSocial", "facebook", "send", a])
-            }));
-            "twttr" in b && "events" in twttr && "bind" in twttr.events && twttr.events.bind("tweet", function(a) {
-                if (a) {
-                    var b;
-                    if (a.target && a.target.nodeName == "IFRAME") a: {
-                        if (a = a.target.src) {
-                            a = a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);
-                            b = 0;
-                            for (var c; c = a[b]; ++b)
-                                if (c.indexOf("url") === 0) {
-                                    b = unescape(c.split("=")[1]);
-                                    break a
-                                }
-                        }
-                        b = void 0
-                    }
-                    _gaq.push(["_trackSocial", "twitter", "tweet", b])
-                }
-            })
-        })
-    })(window);
-    /* ]]> */
-    </script>
     <script type="text/javascript" src="js/angular.min.js"></script>
     <script type="text/javascript" src="js/angular-route.js"></script>
     <script type="text/javascript" src="js/app/app.js"></script>
@@ -123,9 +72,7 @@
     <header class="navbar" id="header-navbar">
         <div class="container">
             <a href="index-2.html" id="logo" class="navbar-brand">
-                <img src="img/logo.png" alt="" class="normal-logo logo-white" />
-                <img src="img/logo-black.png" alt="" class="normal-logo logo-black" />
-                <img src="img/logo-small.png" alt="" class="small-logo hidden-xs hidden-sm hidden" />
+               Bonggie Tasks
             </a>
             <div class="clearfix">
                 <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
@@ -204,9 +151,7 @@
                                     </a>
                                 </li>
                                 <li class="item-footer">
-                                    <a href="#">
-View all notifications
-</a>
+                                    <a href="#">View all notifications</a>
                                 </li>
                             </ul>
                         </li>
@@ -264,9 +209,7 @@ View all notifications
                                     </a>
                                 </li>
                                 <li class="item-footer">
-                                    <a href="#">
-View all messages
-</a>
+                                    <a href="#">View all messages</a>
                                 </li>
                             </ul>
                         </li>
@@ -278,7 +221,7 @@ View all messages
                         <li class="dropdown profile-dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="img/samples/scarlet-159.png" alt="" />
-                                <span class="hidden-xs">Scarlett Johansson</span> <b class="caret"></b>
+                                <span class="hidden-xs">Demo</span> <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="user-profile.html"><i class="fa fa-user"></i>Perfil</a>
@@ -315,7 +258,7 @@ View all messages
 
                 <footer id="footer-bar" class="row">
                     <p id="footer-copyright" class="col-xs-12">
-                        &copy; 2014 <a href="http://www.adbee.sk/" target="_blank">Adbee digital</a>. Powered by Centaurus Theme.
+                        &copy; 2014 Powered by Bonggie Tasks.
                     </p>
                 </footer>
             </div>
@@ -348,7 +291,7 @@ View all messages
     <script src="js/scripts.js"></script>
 
     <script>
-    $(document).ready(function() {
+    $(window).load(function() {
 
         /* initialize the external events
 		-----------------------------------------------------------------*/
@@ -592,7 +535,4 @@ View all messages
     });
     </script>
 </body>
-
-<!-- Mirrored from centaurus.adbee.technology/ by HTTrack Website Copier/3.x [XR&CO'2013], Sun, 27 Jul 2014 00:45:27 GMT -->
-
 </html>
