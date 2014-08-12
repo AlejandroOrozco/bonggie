@@ -5,5 +5,6 @@ bonggie.config(['$routeProvider','$httpProvider',function ($routeProvider,$httpP
 	$routeProvider.when('/widgets', {templateUrl: 'js/app/partials/views/widgets.html'});
 	$routeProvider.when('/calendar', {templateUrl: 'js/app/partials/views/calendar.html'});
 	$routeProvider.when('/pricing', {templateUrl: 'js/app/partials/views/pricing.html'});
+	$routeProvider.when('/wizard-popup', {templateUrl: 'js/app/partials/views/wizard_popup.html'});
 	$routeProvider.otherwise({ redirectTo: '/' });
 }]);
